@@ -1,0 +1,27 @@
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-areas: "header header"
+                        "sidebar main"
+                        "footer footer";
+}
+
+app-header {
+    grid-area: header;
+    box-shadow:rgb(22, 22, 22);
+}
+
+app-sidebar {
+    grid-area: sidebar;
+}
+
+app-main {
+    grid-area: main;
+}
+
+app-footer {
+    grid-area: footer;
+    
+}

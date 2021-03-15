@@ -12,6 +12,8 @@ import { MenuTabComponent } from './view/menu-tab/menu-tab.component';
 import {MatCardModule} from '@angular/material/card';
 import { MesaComponent } from './view/mesa/mesa.component';
 import {MatButtonModule} from '@angular/material/button';
+import { SidebarComponent } from './view/sidebar/sidebar.component';
+import { FooterComponent } from './view/footer/footer.component';
 
 
 
@@ -20,7 +22,9 @@ import {MatButtonModule} from '@angular/material/button';
     AppComponent,
     HeaderComponent,
     MenuTabComponent,
-    MesaComponent
+    MesaComponent,
+    SidebarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
