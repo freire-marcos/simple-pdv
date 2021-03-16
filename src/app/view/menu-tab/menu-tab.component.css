@@ -1,5 +1,14 @@
 .example-card {
-    max-width: 400px;
+    max-width: 300px;
+    margin-top: 15px;
+    background-color: rgb(235, 189, 106);
+    box-shadow: 0px 8px 15px 5px rgb(80, 80, 80);
+    margin-bottom: 50px;
+    margin-left: 20px;
+  }
+
+  .main {
+    padding: 15px;;
   }
   
   .example-header-image {
@@ -13,4 +22,8 @@
 
   .tab-title {
     color: rgb(142, 212, 139);
+  }
+
+  .card_buttons {
+    
   }

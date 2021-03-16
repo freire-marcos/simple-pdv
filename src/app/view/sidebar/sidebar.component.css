@@ -1,4 +1,12 @@
 .container {
-    background-color: rgb(12, 191, 204);
-    height: 100%;
+}
+
+li {
+    list-style: none;
+    font-size: 1.2rem;
+    color: #757575;
+    height: 3rem;
+}
+.icon_fix {
+    size: 1.2rem;
 }
