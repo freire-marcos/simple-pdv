@@ -14,9 +14,8 @@ import { MesaComponent } from './view/mesa/mesa.component';
 import {MatButtonModule} from '@angular/material/button';
 import { SidebarComponent } from './view/sidebar/sidebar.component';
 import { FooterComponent } from './view/footer/footer.component';
-
-
-
+import {MatTableModule} from '@angular/material/table';
+import { TablettestComponent } from './view/tablettest/tablettest.component';
 
 
 @NgModule({
@@ -26,7 +25,9 @@ import { FooterComponent } from './view/footer/footer.component';
     MenuTabComponent,
     MesaComponent,
     SidebarComponent,
-    FooterComponent
+    FooterComponent,
+    TablettestComponent
+    
   ],
   imports: [
     BrowserModule,
@@ -36,7 +37,8 @@ import { FooterComponent } from './view/footer/footer.component';
     MatIconModule,
     MatTabsModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,
+    MatTableModule
     
   ],
   providers: [],
